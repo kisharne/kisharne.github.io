@@ -62,11 +62,11 @@ body {
 
 .resources > h4 {
     font-family: 'Open Sans', sans-serif;
-    color: #323031;
+    color: white;
     font-size: 18px;
     font-weight: 700;
     margin-left: 50px;
-    border: 1px solid #bbc7a4;
+    background-color:#bbc7a4;
     width: fit-content;
     padding-left: 15px;
     padding-right: 15px;
