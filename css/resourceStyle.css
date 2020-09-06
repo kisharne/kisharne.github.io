@@ -1,0 +1,146 @@
+html{
+    background-color: #e9e2d0;
+    margin: 0px;
+    padding: 0;
+    color: #323031;
+}
+
+body {
+    margin: 0;
+    width: auto;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+.nav-wrapper > .left-side {
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.nav-wrapper > .left-side > a {
+    text-decoration: none;
+    color: #323031;
+    margin-right: 20px;
+    padding:10px;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-wrapper > .right-side {
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-wrapper > .right-side > div > a {
+    text-decoration: none;
+    color: #323031;
+    margin-right: 50px;
+    padding:10px;
+}
+
+.nav-wrapper > .right-side > div > a:hover {
+    border-bottom: 1px solid #323031;
+}
+
+.active-nav-link a{
+    border-bottom: 1px solid #323031;
+}
+/* -------------------------------------RESOURCES------------------------------------- */
+
+.resources > h2 {
+    font-size: 48px;
+    color: #bbc7a4;
+    text-align: center;
+    margin-top: 70px; 
+}
+
+.resources > h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 50px;
+    background-color:#bbc7a4;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+table {
+    width: 90%;
+}
+th {
+    color:#da7422;
+}
+table,td,tr {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid black;   
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.resources > table > tbody > tr > td > a {
+    text-decoration: none;
+    color: #585563;
+    text-align: center;
+    width: 200px;
+    transition: 0.5s;
+    padding: 5px;
+    line-height: 1.6;
+}
+
+.resources > table > tbody > tr > td > a:hover {
+    background-color:  #bbc7a4;
+    color:white;
+}
+/* -------------------------------------FOOTER NAV------------------------------------- */
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #323031;
+    width: 100% auto;
+    color: #e9e2d0;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer > .left-side > div > a{
+    left:0;
+    text-decoration: none;
+    color: #e9e2d0;
+    padding-top: 10px;
+    display: flex;
+    width: 50px;
+}
+
+.footer > .left-side > div > a:hover {
+    color:black;
+}
+.footer > .left-side > .cr {
+    bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 14px;
+}
+
+.footer > .right-side > p {
+    display: flex;
+    font-size: 14px;
+    margin-right: 330px;
+    margin-bottom: 30px;
+}
+.footer > .right-side > img {
+    height: 30px;
+    width: 30px;
+    padding-right: 15px;
+}
+
+
